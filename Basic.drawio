@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-16T08:42:34.849Z" agent="5.0 (Windows)" etag="DrcG8a1wpOvTeJWo4KfX" version="13.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-16T09:43:07.487Z" agent="5.0 (Windows)" etag="JUz15G148Uc8cHjxP1BQ" version="13.7.1" type="github">
   <diagram id="lcQtcWyNDoLm4r6tXk9v" name="Page-1">
-    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -119,6 +119,12 @@
         </mxCell>
         <mxCell id="2oZy433ebvZI-6c4plQJ-28" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="490" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2oZy433ebvZI-6c4plQJ-30" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="290" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2oZy433ebvZI-6c4plQJ-32" value="var highest range = 100&lt;br&gt;var lowest rannge = 1&lt;br&gt;var final result = 0&lt;br&gt;var ans = 35&lt;br&gt;&lt;br&gt;algo (int) : hr + lr -1 /2&amp;nbsp; = final result&lt;br&gt;&lt;br&gt;while (ans != fr) [&lt;br&gt;if (ans = final result) {&lt;br&gt;output &quot;gewonnen&quot;&lt;br&gt;break&lt;br&gt;} else if ( ans &amp;lt; fr) {&lt;br&gt;&amp;nbsp;hr = fr -1 &lt;br&gt;&amp;nbsp;run algo &lt;br&gt;output &quot;too high&quot;&lt;br&gt;} else {&lt;br&gt;lr = fr + 1&lt;br&gt;output &quot;too low&quot;&lt;br&gt;}]" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="20" width="205" height="290" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
