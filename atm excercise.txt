@@ -1,0 +1,25 @@
+var 100$ = 0
+var 50$	= 0
+var 20$	= 0
+var 10$	= 0
+
+input value = 280
+
+if ( input modolo 10 != 0){
+return "We can not hand out 5$ notes
+} else {
+var 100$ (int) = input value/ 100 
+input value = rest
+return var 100$
+var 50$ = ( input value modolo 100) / 50
+input value = rest
+return var 50$
+var 20$ = (input value modolo 50) / 20
+input value = rest
+return var 20$
+var 10$ = (input value modolo 20)
+return var 10$
+
+
+ 
+
